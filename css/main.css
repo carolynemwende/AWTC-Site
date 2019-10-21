@@ -1,0 +1,552 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+}
+
+
+.centre-container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.content-intro h2{
+  color: #009999;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+}
+.content-intro h3{
+  color: #009999;
+  font-size: 18px;
+  margin-top: 50px;
+  padding:0 0 0 15px;
+  margin-bottom: 40px;
+}
+.speaker{
+  float: left;
+  width: 600px;
+  padding:15px;
+  box-sizing: border-box;
+
+}
+.speaker img{
+  border-radius: 10px;
+}
+.panel2{
+  height: 400px;
+}
+.panel1{
+  height: 400px;
+}
+.panel3{
+  height: 400px;
+}
+.panel4{
+  height: 400px;
+}
+.speaker h4{
+  color: #009999;
+  font-size: 18PX;
+  padding-top: 50px;
+}
+.session-icons{
+  float: left;
+  width: 400px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.Sessions img{
+  align-items: center;
+  margin-bottom: 20px;
+}
+.clear{
+  clear: both;
+}
+.header .container {
+  z-index: 2;
+  position: relative;
+  
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+}
+.navbar{
+  background-color: #000;
+}
+.header-overlay{
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  min-height:100%;
+  position: absolute;
+  background-color: rgb(0,0,0,0.6);
+}
+.header {
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+  min-height: 25rem;
+  position: relative;
+  background-color: black;
+}
+#ticket{
+  border-radius:5px;
+  padding: 6px 20px;
+  background-color:#009999;
+
+}
+.header video {
+  top: 50%;
+  left: 50%;
+  z-index:-1000;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  -webkit-filter: opacity(.3);
+  filter: opacity(.3);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.container-2 {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.container-2 span{
+  color: #009999;
+  font-size: 22px;
+  font-weight: 600;
+}
+.container-2 h3{
+  color: #fff;
+  display: inline;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #009999;
+}
+.container-2 h3 +p{
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 170px;
+  background-color: rgb(0,0,0,0.4);
+
+}
+ .container-2 p{
+  padding-bottom:30px;
+ }
+ .container-2 h1{
+  font-size: 65px;
+  font-weight: 600;
+  padding-top: 150px;
+  font-family: brandon_bold,Arial;
+}
+#tick-link{
+  margin-left: 20px;
+  background-image:linear-gradient(to right, #004d4d , #00e6e6);
+}
+
+
+
+/*styling 2018recap*/
+.b-g-image img {
+  top: 50%;
+  left: 50%;
+  z-index:-1000;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  -webkit-filter: opacity(.4);
+  filter: opacity(.4);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.mid-content{
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+#h3{
+  color: #009999;
+  font-weight: 600;
+  padding-top: 100px;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row {margin: 0 -5px;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+}
+.card p{
+  padding: 5px;
+  font-weight: 600;
+}
+#photos{
+  color: #0099;
+}
+
+.impact h2{
+  color: #009999;
+  font-size: 20px;
+  margin: 50px 0 30px 0;
+}
+
+.impact img{
+  margin-bottom: 50px;
+}
+
+
+/*styling about page*/
+
+.abt-cont{
+  float: left;
+  width: 580px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.one1{
+  background-color: red;
+
+}
+.one2{
+  background-color: blue;
+}
+.one3{
+  background-color: green;
+}
+.one4{
+  background-color: yellow;
+}
+.abt-content h4{
+  color: #009999;
+  font-weight: 600;
+}
+
+
+
+/*join us page*/
+
+.column-abt{
+  float: left;
+  width: 32%;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+
+.column-abt h3{
+  color: #009999;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.column-abt p{
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.column-abt .card{
+  height:400px;
+  width: auto;
+  padding: 0 5px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* web footer*/
+.page-footer{
+  padding-bottom: 20px;
+  background-color: rgb(0,0,0,0.9);
+}
+.footer-copyright{
+  background-color: rgb(0,0,0);
+}
+.page-footer h5{
+  color: #009999;
+  margin-bottom: 20px;
+}
+.footer-brand img{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+.centre-container{
+  width: 100%;
+}
+.Sessions{
+  width: 100%;
+}
+.session-icons{
+  width: 100%;
+}
+.content-intro{
+  width: 100%;
+}
+#img{
+  width:300px;
+  height: auto;
+}
+body{
+  width: 100%;
+}
+html{
+  width: 100%;
+}
+.navbar-toggler{
+  float: right;
+}
+
+.impact img{
+  width: 100%;
+}
+.padding-15px{
+  width: 100%;
+  padding:0 15px;
+}
+.speaker{
+  width: 100%;
+  clear: both;
+}
+.speaker img{
+  width: 100%;
+  height: auto;
+}
+.mid-content img{
+  width: 100%;
+}
+.column-abt .card{
+  height:"";
+  width: 100%;
+}
+/*Home page*/
+#ticket{
+  color: #009999;
+  border-radius:5px;
+  padding: 0px 0px;
+  background-color:transparent;
+
+}
+ .container-2 h1{
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 100px;
+  font-family: brandon_bold,Arial;
+}
+
+.container-2 span{
+  color: #009999;
+  font-size: 15px;
+  font-weight: 600;
+}
+.container-2 h3{
+  color: #fff;
+  display: inline;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #009999;
+}
+.container-2 h3+p{
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 110px;
+  background-color: rgb(0,0,0,0.4);
+
+}
+ .container-2 p{
+  font-size: 18px;
+  padding-bottom:30px;
+ }
+ .content-intro h2{
+  font-size: 15px;
+ }
+
+ /*about page*/
+ .abt-cont{
+  width: 100%;
+ }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+
+@media (pointer: coarse) and (hover: none) {
+.header {
+    background: url(../img/chix.png) black no-repeat center center scroll;
+  }
+.header video {
+    display: none;
+  }
+#ticket{
+  padding:0px;
+  border-radius:0;
+  background-color:transparent;
+
+}
+.header .overlay{
+  z-index: -1;
+  background-color: transparent;
+}
+}
+
+
+
+/*@media only screen and (max-width: 1024px) {
+.centre-container{
+  width: 100%;
+}
+.Sessions{
+  width: 100%;
+}
+.session-icons{
+  width: 100%;
+}
+.content-intro{
+  width: 100%;
+}
+#img{
+  width:300px;
+  height: auto;
+}
+body{
+  width: 100%;
+}
+html{
+  width: 100%;
+}
+.navbar-toggler{
+  float: right;
+}
+
+.impact img{
+  width: 100%;
+}
+.padding-15px{
+  width: 100%;
+  padding:0 15px;
+}
+.speaker{
+  width: 100%;
+  clear: both;
+}
+.speaker img{
+  width: 100%;
+  height: auto;
+}
+.mid-content img{
+  width: 100%;
+}
+.column-abt .card{
+  height:"";
+  width: 100%;
+}
+
+}*/
