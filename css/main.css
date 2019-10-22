@@ -49,6 +49,9 @@ html, body {
   font-size: 18PX;
   padding-top: 50px;
 }
+.session{
+  padding-bottom: 30px;
+}
 .session-icons{
   float: left;
   width: 400px;
@@ -95,6 +98,10 @@ html, body {
   padding: 6px 20px;
   background-color:#009999;
 
+}
+.partners img{
+  padding-left: 50px;
+  padding-bottom: 30px;
 }
 .header video {
   top: 50%;
@@ -225,18 +232,32 @@ html, body {
   padding: 10px;
   box-sizing: border-box;
 }
+.one1 img{
+  width: 540px;
+  height: auto;
+  padding-top: 80px;
+}
+.one3 img{
+  width: 540px;
+  height: auto;
+}
+.one4 img{
+  width: 540px;
+  height: auto;
+}
+
 .one1{
-  background-color: red;
+  margin-top: 40px;
 
 }
 .one2{
-  background-color: blue;
+  margin-top: 40px;
 }
 .one3{
-  background-color: green;
+  margin: 30px 0 50px 0;
 }
 .one4{
-  background-color: yellow;
+  margin: 30px 0 50px 0;
 }
 .abt-content h4{
   color: #009999;
@@ -261,6 +282,7 @@ html, body {
 }
 .column-abt p{
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.5rem;
 }
 
@@ -269,6 +291,10 @@ html, body {
   width: auto;
   padding: 0 5px;
   margin-top: 20px;
+}
+
+#join-h5{
+  font-size: 36px;
 }
 
 
@@ -382,7 +408,7 @@ html, body {
   width: 100%;
 }
 #img{
-  width:300px;
+  width:100%;
   height: auto;
 }
 body{
@@ -428,8 +454,11 @@ html{
  .container-2 h1{
   font-size: 30px;
   font-weight: 600;
-  padding-top: 100px;
   font-family: brandon_bold,Arial;
+}
+
+#about-h2{
+  padding-top: 250px;
 }
 
 .container-2 span{
@@ -467,6 +496,29 @@ html{
  .abt-cont{
   width: 100%;
  }
+ .abt-cont img{
+  width: 100%;
+ }
+ .one1 img{
+  padding-top: 20px;
+}
+
+/*join us page*/
+#h3{
+  padding-top: 50px;
+}
+.centre-container h5{
+  font-size: 13px;
+}
+.column-abt .card{
+  width: 100%;
+  padding: 0 5px;
+  margin-top: 20px;
+}
+
+#join-h5{
+  font-size: 18px;
+}
 }
 
 
@@ -499,54 +551,18 @@ html{
 
 
 
-/*@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 .centre-container{
   width: 100%;
 }
-.Sessions{
+ .abt-cont{
   width: 100%;
-}
-.session-icons{
+ }
+ .abt-cont img{
   width: 100%;
-}
-.content-intro{
-  width: 100%;
-}
-#img{
-  width:300px;
-  height: auto;
-}
-body{
-  width: 100%;
-}
-html{
-  width: 100%;
-}
-.navbar-toggler{
-  float: right;
+ }
+ .one1 img{
+  padding-top: 20px;
 }
 
-.impact img{
-  width: 100%;
 }
-.padding-15px{
-  width: 100%;
-  padding:0 15px;
-}
-.speaker{
-  width: 100%;
-  clear: both;
-}
-.speaker img{
-  width: 100%;
-  height: auto;
-}
-.mid-content img{
-  width: 100%;
-}
-.column-abt .card{
-  height:"";
-  width: 100%;
-}
-
-}*/
