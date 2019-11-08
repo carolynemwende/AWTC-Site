@@ -4,6 +4,33 @@ html, body {
   font-family: arial, sans-serif;
 }
 
+h2{
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom:10px;
+}
+h3{
+  color: #009999;
+  font-size: 13px;
+}
+h4{
+  font-size: 14px;
+}
+p{
+  font-size: 13px;
+  line-height: 1.5rem;
+}
+span{
+  color:#edc01b;
+  font-size: 13px;
+  
+}
+ul{
+  font-size: 13px;
+  line-height: 1.5rem;
+}
+
 
 .centre-container{
 	width: 1200px;
@@ -101,7 +128,7 @@ html, body {
 }
 .partners img{
   padding-left: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 .header video {
   top: 50%;
@@ -232,6 +259,7 @@ html, body {
 }
 
 
+
 /*styling about page*/
 
 .abt-cont{
@@ -272,6 +300,24 @@ html, body {
   font-weight: 600;
 }
 
+/*styling agenda*/
+.backgroun-color{
+  background-color: rgb(63,224,208,0.05);
+}
+.agenda {
+  width: 380px;
+  float: left;
+  margin:60px 0 60px 0;
+}
+
+.ses2, .ses3{
+  margin-left: 30px;
+}
+.agenda h3{
+  font-size: 18px;
+  color: #009999;
+  padding-bottom: 20px;
+}
 
 
 /*join us page*/
@@ -455,6 +501,10 @@ html{
   font-weight: 600;
   font-family: brandon_bold,Arial;
 }
+.partners img{
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
 
 #about-h2{
   font-size: 30px;
@@ -484,9 +534,12 @@ html{
   font-size: 18px;
   padding-bottom:30px;
  }
- .content-intro h2{
+.content-intro h2{
+  color: #009999;
   font-size: 15px;
- }
+  text-align: left;
+  padding-top: 20px;
+}
 
   .container-2 h2{
   font-size: 30px;
